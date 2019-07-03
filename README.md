@@ -14,6 +14,10 @@ It installs rvm and inside that:
 The Rails application is not dockerised
 Did not implement anything with the tag parameter
 
+### Docker Registry USERNAME and Password
+dev_user
+123456
+
 ## Scritps
 There are scritps that setup the whole environment for you from a default state  
 You can run it in the local environment by executing and install_me.sh, start_registry.sh and build_me.sh scripts  
