@@ -1,6 +1,11 @@
 class HistoryController < ApplicationController
   def index
-    #p params[:name]
-    system("docker history #{params[:name]}")
+    @name = params[:name]
+    output = []
+    IO.popen("docker history #{params[:name]}").each do |line|
+      output << line.chomp
+    end
+    @history = ''
+    output.each {|line| @history += line + "\n"}
   end
 end
