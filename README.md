@@ -25,9 +25,9 @@ install_me.sh tries to install everything needed to make the environment operati
 
 
 ## Startup
-cd to docker_view/
-rails s
-If you using the local repository use the build_me.sh script to add it and can then test it with this command:
+cd to docker_view/  
+rails s  
+If you using the local repository use the build_me.sh script to add it and can then test it with this command:  
 http://localhost:3000/history?name=test-image&tag=latest
 
 ## Ouput
