@@ -30,4 +30,4 @@ rails s
 If you using the local repository use the build_me.sh script to add it and can then test it with this command:
 http://localhost:3000/history?name=test-image&tag=latest
 
-[[https://github.com/KaGenN101/docker_viewer/blob/master/screenshot.png|alt=screenshot]]
+(https://github.com/KaGeN101/docker_viewer/blob/master/screenshot.png)
