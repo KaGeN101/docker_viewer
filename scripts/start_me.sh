@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export REGISTRY="http://localhost:5000"
-export USERNAME="dev_user"
-export PASSWORD="123456"
+export REGISTRY=http://localhost:5000
+export USERNAME=dev_user
+export PASSWORD=123456
 
 source ~/.rvm/scripts/rvm
 
